@@ -120,7 +120,7 @@
   <main class="site-content" id="content">
 
     <!-- START: Breadcrumb Area -->
-    <section class="breadcrumb_area" data-bg-image="/assets/hero/me.png" data-bg-color="#140C1C">
+    <section class="breadcrumb_area" data-bg-image="./assets/img/hero/me.jpg" data-bg-color="#140C1C">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -146,7 +146,7 @@
             <div class="tj-post__container">
               <article class="tj-post wow fadeInUp" data-wow-delay=".3s">
                 <div class="tj-post__thumb">
-                    <img src="./assets/img/blog/blog-1 (1).jpg" alt="">
+                    <img src="./assets/img/bg-album.png" alt="">
                 </div>
                 <div class="tj-post__content">
                   <div class="tj-post__meta entry-meta">
@@ -175,37 +175,6 @@
     </div>
 </footer>
   <!-- FOOTER AREA END -->
-
-
-  <script>
-    // آرایه لینک عکس‌ها
-    const images = [
-      'https://picsum.photos/id/101/200/150',
-      'https://picsum.photos/id/102/200/150',
-      'https://picsum.photos/id/103/200/150',
-      'https://picsum.photos/id/104/200/150'
-    ];
-  
-    const container = document.getElementById('content-container');
-  
-    for (let i = 0; i < images.length; i++) {
-      // ساخت المنت والد (مثلاً div)
-      const item = document.createElement('div');
-      item.className = 'item'; // اگر استایل دادی
-  
-      // ساخت تگ img و تنظیم عکس
-      const img = document.createElement('img');
-      img.src = images[i];
-      img.alt = `Image ${i + 1}`;
-  
-      // اضافه کردن عکس به داخل div
-      item.appendChild(img);
-  
-      // اضافه کردن div به کانتینر اصلی
-      container.appendChild(item);
-    }
-  </script>
-  
 
   <!-- CSS here -->
   <script src="assets/js/jquery.min.js"></script>
